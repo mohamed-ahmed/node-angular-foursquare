@@ -1,7 +1,10 @@
 doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+html(lang='en', ng-app='node-foursquare')
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js')
+		script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular-resource.min.js')
+		script(src='javascripts/app.js')
+	body
+		block content
